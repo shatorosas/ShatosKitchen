@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Omnifood is a premium food delivery service with the mission to bring affordable and healty meals to as many peaople as possible">
+    <meta name="description" content="Shato's kitchen is a premium food delivery service with the mission to bring affordable and healty meals to as many peaople as possible">
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css" />
     <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
     <link rel="stylesheet" type="text/css" href="resources/css/queries.css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:200,300,300i,400&display=swap" rel="stylesheet">
-    <title>Omnifood</title>
+    <title>Shato's kitchen</title>
 
     <link rel="apple-touch-icon" sizes="180x180" href="resources/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="resources/favicons/favicon-32x32.png">
@@ -61,7 +61,7 @@
                 Get food fast &mdash; not fast food.
             </h2>
             <p class="long-copy">
-                Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!
+                Hello, we’re Shato's kitchen, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!
             </p>
         </div>
         <div class="row js--wp1" id="wp1">
@@ -160,7 +160,7 @@
             </h2>
             <div class="row">
                 <div class="col span-1-of-2 steps-box">
-                    <img src="resources/img/app-iPhone.png" alt="Omnifood app on iPhone" class="app-screen  js--wp2" id="wp2" />
+                    <img src="resources/img/app-iPhone.png" alt="Shato's kitchen app on iPhone" class="app-screen  js--wp2" id="wp2" />
                 </div>
                 <div class="col span-1-of-2 steps-box">
                     <div class="works-step">
@@ -203,7 +203,7 @@
                 </div>
                 <div class="city-feature">
                     <i class="icon ion-logo-twitter icon-small"></i>
-                    <a href="#">@omnifood_lx</a>
+                    <a href="#">@shatoskitchen_lx</a>
                 </div>
             </div>
             <div class="col span-1-of-4 box">
@@ -219,7 +219,7 @@
                 </div>
                 <div class="city-feature">
                     <i class="icon ion-logo-twitter icon-small"></i>
-                    <a href="#">@omnifood_sf</a>
+                    <a href="#">@shatoskitchen_sf</a>
                 </div>
             </div>
             <div class="col span-1-of-4 box">
@@ -235,7 +235,7 @@
                 </div>
                 <div class="city-feature">
                     <i class="icon ion-logo-twitter icon-small"></i>
-                    <a href="#">@omnifood_berlin</a>
+                    <a href="#">@shatoskitchen_berlin</a>
                 </div>
             </div>
             <div class="col span-1-of-4 box">
@@ -251,7 +251,7 @@
                 </div>
                 <div class="city-feature">
                     <i class="icon ion-logo-twitter icon-small"></i>
-                    <a href="#">@omnifood_london</a>
+                    <a href="#">@shatoskitchen_london</a>
                 </div>
             </div>
         </div>
@@ -265,7 +265,7 @@
         <div class="row clearfix">
             <div class="col span-1-of-3">
                 <blockquote>
-                    Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
+                    Shato's kitchen is just awesome! I just launched a startup which leaves me with no time for cooking, so Shato's kitchen is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
                 </blockquote>
                 <cite>
                     <img src="resources/img/customer-1.jpg" alt="Alberto Duncan" />
@@ -283,7 +283,7 @@
             </div>
             <div class="col span-1-of-3">
                 <blockquote>
-                    I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Omnifood. Best food delivery service in the Bay Area. Keep up the great work!
+                    I was looking for a quick and easy food delivery service in San Franciso. I tried a lot of them and ended up with Shato's kitchen. Best food delivery service in the Bay Area. Keep up the great work!
                 </blockquote>
                 <cite>
                     <img src="resources/img/customer-3.jpg" alt="Milton Chapman" />
@@ -446,7 +446,7 @@
             </div>
         </div>
         <div class="row">
-            <p>Copyright &copy; 2015 by Omnifood. All rights reserved.</p>
+            <p>Copyright &copy; 2015 by Shato's kitchen. All rights reserved.</p>
         </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
