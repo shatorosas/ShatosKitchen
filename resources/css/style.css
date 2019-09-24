@@ -13,6 +13,10 @@ Dark Orange Color #cf6d17
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html,
 body {
     background-color: #ffffff;
@@ -101,8 +105,8 @@ section {
 /*HEADER*/
 /*----------------------------------------------------------------------------------------------*/
 header {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/hero.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/hero-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -133,7 +137,7 @@ h3 {
 
 h1 {
 
-    margin: 0px 0 20 0;
+    margin: 0px 0px 20px 0px;
     color: #fff;
     font-size: 240%;
     word-spacing: 3px;
@@ -242,6 +246,15 @@ input[type=submit]:active {
     margin-top: 20px;
 }
 
+.logo-black {
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 5px 0;
+    display: none;
+}
+
+/*main navi*/
 .main-nav {
     float: right;
     list-style: none;
@@ -268,6 +281,49 @@ input[type=submit]:active {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid #e67e22
+}
+
+/*mobile navi*/
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
+/*sticky navi*/
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    -webkit-box-shadow: 0 2px 2px #efefef;
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    color: #555;
+    padding: 16px 0px;
+}
+
+.sticky .logo-black {
+    display: block;
+}
+
+.sticky .logo {
+    display: none;
+}
+
+.sticky .main-nav {
+    margin-top: 20px;
 }
 
 /*----------------------------------------------------------------------------------------------*/
@@ -402,8 +458,8 @@ input[type=submit]:active {
 /*TESTIMONIALS*/
 /*----------------------------------------------------------------------------------------------*/
 .section-testimonials {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(img/back-customers.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(img/back-customers-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-customers-min.jpg);
     background-size: cover;
     color: #fff;
     background-attachment: fixed;
@@ -609,4 +665,27 @@ footer p {
     color: #888;
     text-align: center;
     margin-top: 10px
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/*ANIMATIONS*/
+/*----------------------------------------------------------------------------------------------*/
+
+.js--wp1,
+.js--wp2,
+.js--wp3 {
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp4 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp1.animated,
+.js--wp2.animated,
+.js--wp3.animated {
+    opacity: 1;
 }
