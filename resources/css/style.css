@@ -702,6 +702,11 @@ footer a:active {
     color: #c32aa3;
 }
 
+.ion-logo-linkedin:hover,
+.ion-logo-linkedin:active {
+    color: #007bb5;
+}
+
 footer p {
     color: #888;
     text-align: center;
